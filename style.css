@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo-principal {
+    height: 770px;
+    width: 850px;
+    background-color: rgba(33, 150, 246, 0.8);
+    grid-template-columns: repeat (1fr, 1fr);
+    position: relative;
+    top: -50px;
+    right: 10px;
+}
+.cont-login {
+    position: relative;
+    top: 150px;
+    left: 1125px;
+}
+.cont-login h1 {
+    height: 60px;
+    position: relative;
+    left: 140px;
+}
+.cont-login input {
+    width: 150px;
+    margin-bottom: 5%;
+}
+.cont-login button {
+    height: 50px;
+    width: 150px;
+    border-radius: 7%;
+    position: relative;
+    left: 195px;
+    top: -5px;
+}
+.cont-login h3{
+    position: relative;
+    top: 15px;
+}
+.cont-login p {
+    height: 30px;
+}
+.cont-login input {
+    width: 340px;
+}
+.senha label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1020px){
+   .cont-login, .senha {
+    display:none;
+   }
+}
+    
